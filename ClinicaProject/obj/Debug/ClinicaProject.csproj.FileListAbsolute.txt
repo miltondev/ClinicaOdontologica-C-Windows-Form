@@ -1,0 +1,13 @@
+c:\users\oceiros\documents\visual studio 2015\Projects\ClinicaProject\ClinicaProject\bin\Debug\ClinicaProject.exe.config
+c:\users\oceiros\documents\visual studio 2015\Projects\ClinicaProject\ClinicaProject\bin\Debug\ClinicaProject.exe
+c:\users\oceiros\documents\visual studio 2015\Projects\ClinicaProject\ClinicaProject\bin\Debug\ClinicaProject.pdb
+c:\users\oceiros\documents\visual studio 2015\Projects\ClinicaProject\ClinicaProject\obj\Debug\ClinicaProject.csprojResolveAssemblyReference.cache
+c:\users\oceiros\documents\visual studio 2015\Projects\ClinicaProject\ClinicaProject\obj\Debug\ClinicaProject.Login.resources
+c:\users\oceiros\documents\visual studio 2015\Projects\ClinicaProject\ClinicaProject\obj\Debug\ClinicaProject.MenuPrincipal.resources
+c:\users\oceiros\documents\visual studio 2015\Projects\ClinicaProject\ClinicaProject\obj\Debug\ClinicaProject.Properties.Resources.resources
+c:\users\oceiros\documents\visual studio 2015\Projects\ClinicaProject\ClinicaProject\obj\Debug\ClinicaProject.csproj.GenerateResource.Cache
+c:\users\oceiros\documents\visual studio 2015\Projects\ClinicaProject\ClinicaProject\obj\Debug\ClinicaProject.exe
+c:\users\oceiros\documents\visual studio 2015\Projects\ClinicaProject\ClinicaProject\obj\Debug\ClinicaProject.pdb
+c:\users\oceiros\documents\visual studio 2015\Projects\ClinicaProject\ClinicaProject\obj\Debug\ClinicaProject.Mastermenu.resources
+C:\Users\Oceiros\documents\visual studio 2015\Projects\ClinicaProject\ClinicaProject\obj\Debug\ClinicaProject.Pacientes.resources
+C:\Users\Oceiros\documents\visual studio 2015\Projects\ClinicaProject\ClinicaProject\obj\Debug\ClinicaProject.Doctores.resources
