@@ -33,9 +33,6 @@
             this.btnCerrarSesion = new System.Windows.Forms.Button();
             this.txtsesion = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnTratamientos = new System.Windows.Forms.Button();
-            this.btnPacientes = new System.Windows.Forms.Button();
-            this.btnFactura = new System.Windows.Forms.Button();
             this.btnDoctores = new System.Windows.Forms.Button();
             this.btnCitas = new System.Windows.Forms.Button();
             this.btnConsultas = new System.Windows.Forms.Button();
@@ -59,41 +56,41 @@
             // 
             this.groupBox1.Controls.Add(this.btnCerrarSesion);
             this.groupBox1.Controls.Add(this.txtsesion);
-            this.groupBox1.Location = new System.Drawing.Point(26, 14);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(12, 14);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(95, 86);
+            this.groupBox1.Size = new System.Drawing.Size(124, 86);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos Sesion";
             // 
             // btnCerrarSesion
             // 
-            this.btnCerrarSesion.Location = new System.Drawing.Point(6, 43);
+            this.btnCerrarSesion.Location = new System.Drawing.Point(17, 56);
             this.btnCerrarSesion.Name = "btnCerrarSesion";
             this.btnCerrarSesion.Size = new System.Drawing.Size(83, 24);
             this.btnCerrarSesion.TabIndex = 1;
             this.btnCerrarSesion.Text = "Cerrar Sesion";
             this.btnCerrarSesion.UseVisualStyleBackColor = true;
+            this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
             // 
             // txtsesion
             // 
             this.txtsesion.AutoSize = true;
-            this.txtsesion.Location = new System.Drawing.Point(24, 27);
+            this.txtsesion.Location = new System.Drawing.Point(39, 30);
             this.txtsesion.Name = "txtsesion";
-            this.txtsesion.Size = new System.Drawing.Size(48, 13);
+            this.txtsesion.Size = new System.Drawing.Size(41, 13);
             this.txtsesion.TabIndex = 0;
-            this.txtsesion.Text = "txtsesion";
+            this.txtsesion.Text = "Admin";
             // 
             // groupBox2
             // 
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.groupBox2.Controls.Add(this.btnTratamientos);
-            this.groupBox2.Controls.Add(this.btnPacientes);
-            this.groupBox2.Controls.Add(this.btnFactura);
             this.groupBox2.Controls.Add(this.btnDoctores);
             this.groupBox2.Controls.Add(this.btnCitas);
             this.groupBox2.Controls.Add(this.btnConsultas);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(12, 104);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(124, 300);
@@ -101,39 +98,9 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Opciones";
             // 
-            // btnTratamientos
-            // 
-            this.btnTratamientos.Location = new System.Drawing.Point(6, 178);
-            this.btnTratamientos.Name = "btnTratamientos";
-            this.btnTratamientos.Size = new System.Drawing.Size(112, 23);
-            this.btnTratamientos.TabIndex = 5;
-            this.btnTratamientos.Text = "Tratamientos";
-            this.btnTratamientos.UseVisualStyleBackColor = true;
-            this.btnTratamientos.Click += new System.EventHandler(this.btnTratamientos_Click);
-            // 
-            // btnPacientes
-            // 
-            this.btnPacientes.Location = new System.Drawing.Point(6, 149);
-            this.btnPacientes.Name = "btnPacientes";
-            this.btnPacientes.Size = new System.Drawing.Size(112, 23);
-            this.btnPacientes.TabIndex = 4;
-            this.btnPacientes.Text = "Pacientes";
-            this.btnPacientes.UseVisualStyleBackColor = true;
-            this.btnPacientes.Click += new System.EventHandler(this.btnPacientes_Click);
-            // 
-            // btnFactura
-            // 
-            this.btnFactura.Location = new System.Drawing.Point(6, 91);
-            this.btnFactura.Name = "btnFactura";
-            this.btnFactura.Size = new System.Drawing.Size(112, 23);
-            this.btnFactura.TabIndex = 3;
-            this.btnFactura.Text = "Facturas";
-            this.btnFactura.UseVisualStyleBackColor = true;
-            this.btnFactura.Click += new System.EventHandler(this.btnFactura_Click);
-            // 
             // btnDoctores
             // 
-            this.btnDoctores.Location = new System.Drawing.Point(6, 120);
+            this.btnDoctores.Location = new System.Drawing.Point(6, 91);
             this.btnDoctores.Name = "btnDoctores";
             this.btnDoctores.Size = new System.Drawing.Size(112, 23);
             this.btnDoctores.TabIndex = 2;
@@ -174,15 +141,17 @@
             // 
             // toolStripStatusLabel1
             // 
+            this.toolStripStatusLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(77, 17);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(79, 17);
             this.toolStripStatusLabel1.Text = "Tipo Usuario:";
             // 
             // txtTipoUser
             // 
+            this.txtTipoUser.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.txtTipoUser.Name = "txtTipoUser";
-            this.txtTipoUser.Size = new System.Drawing.Size(84, 17);
-            this.txtTipoUser.Text = "txtTipoUsuario";
+            this.txtTipoUser.Size = new System.Drawing.Size(86, 17);
+            this.txtTipoUser.Text = "Administrador";
             // 
             // Mastermenu
             // 
@@ -196,6 +165,7 @@
             this.IsMdiContainer = true;
             this.Name = "Mastermenu";
             this.Text = "Mastermenu";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Mastermenu_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -215,12 +185,9 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel txtTipoUser;
-        private System.Windows.Forms.Button btnPacientes;
-        private System.Windows.Forms.Button btnFactura;
         private System.Windows.Forms.Button btnDoctores;
         private System.Windows.Forms.Button btnCitas;
         private System.Windows.Forms.Button btnConsultas;
-        private System.Windows.Forms.Button btnTratamientos;
     }
 }
 

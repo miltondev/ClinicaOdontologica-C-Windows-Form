@@ -16,7 +16,7 @@ namespace ClinicaProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Mastermenu());
+            Application.Run(new Consultas());
         }
     }
 }

@@ -131,9 +131,9 @@ namespace ClinicaProject
         private void btnFactura_Click(object sender, EventArgs e)
         {
 
-            Facturas lg = new Facturas();
-            lg.MdiParent = this;
-            lg.Show();
+            //Facturas lg = new Facturas();
+            //lg.MdiParent = this;
+            //lg.Show();
         }
 
         private void btnDoctores_Click(object sender, EventArgs e)
@@ -147,16 +147,24 @@ namespace ClinicaProject
         private void btnPacientes_Click(object sender, EventArgs e)
         {
 
-            Pacientes lg = new Pacientes();
-            lg.MdiParent = this;
-            lg.Show();
+            //Pacientes lg = new Pacientes();
+            //lg.MdiParent = this;
+            //lg.Show();
         }
 
         private void btnTratamientos_Click(object sender, EventArgs e)
         {
-           Tratamientos lg = new Tratamientos();
-            lg.MdiParent = this;
-            lg.Show();
+           //Tratamientos lg = new Tratamientos();
+           // lg.MdiParent = this;
+           // lg.Show();
+        }
+
+        private void btnCerrarSesion_Click(object sender, EventArgs e)
+        {
+            Login lg = new Login();
+            this.Hide();
+            lg.ShowDialog();
+            this.Close();
         }
     }
 }
